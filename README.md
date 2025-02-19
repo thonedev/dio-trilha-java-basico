@@ -82,6 +82,7 @@ Olá THONE C ARAUJO, obrigado por criar uma conta em nosso banco, sua agência �
 ```
 📌 Autor
 
+Contate-me [Thone Cardoso](https://github.com/thonecardoso)  
 Este projeto foi desenvolvido como parte do **Bootcamp Bradesco - Java Cloud Native** na plataforma [DIO](https://web.dio.me/home).
 
 🏆 Contribuição
