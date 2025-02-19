@@ -1,9 +1,17 @@
+import java.util.Scanner;
+
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        int numero = Integer.parseInt(args[0]);
-        String agencia = args[1];
-        String nomeCliente = args[2];
-        double saldo = Double.parseDouble(args[3]);
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite o número da conta: ");
+        int numero = Integer.parseInt(sc.nextLine());
+        System.out.println("Digite o número da agência: ");
+        String agencia = sc.nextLine();
+        System.out.println("Digite o nome do cliente: ");
+        String nomeCliente = sc.nextLine();
+        System.out.println("Digite o saldo da conta: ");
+        double saldo = Double.parseDouble(sc.nextLine());
 
         System.err.println("Número da conta: " + numero);
         System.err.println("Número da agência: " + agencia);
